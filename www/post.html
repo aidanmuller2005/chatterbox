@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create a Post</title>
+    <link rel="icon" src="../assets/images/chatterboxchrome.jpg" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/poststyles.css" />
+    <script src="../assets/js/postscript.js"></script>
+    
+    </head>
+
+    
+    
+    <body style="background: #f0f2f3;">
+    
+        <div style="width: 800px; height: 600px; box-shadow: 0 0 5px #ccc; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background: #fff; border: 1px solid #ccc; text-align: center;">
+            
+            <span id="postcancel" onclick="window.history.back();" style="color: red; position: absolute; left:20px; font-size: 50px; top:15px">&times;</span>
+            
+            
+            
+            <h1 style="z-index: 1; font-size: 20px;">Create a post</h1>
+            <h1>Post title</h1>
+            <input id='ptitle' style="position: absolute; top:130px; display: block;
+                           left: 50%; transform: translate(-50%, -50%); width: 700px; height: 50px; font-size: 30px; ">
+            <br/>
+            <br />
+            <h1>Post content</h1>
+            <textarea id='pcontent' style="position: absolute; top:374px;
+                                           left: 50%; transform: translate(-50%, -50%); width: 700px; height: 296px; font-size: 13pt"></textarea>
+            
+            
+            <button onClick="submitPost()" id="postbtn" style="background: white; display: block; border: 1px solid blue; width: 400px; height: 50px; position: absolute; bottom:10px; left: 50%; transform: translate(-50%); font-size: 20px; color: blue;">Post</button>
+            
+                
+                
+                </div>
+        
+        
+        
+        
+        
+    
+    
+    </body>
+    
+</html>
