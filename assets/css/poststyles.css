@@ -1,0 +1,18 @@
+
+#postbtn {
+    transition: 0.4s;
+}
+
+#postbtn:hover {
+    
+    cursor: pointer;
+    background: blue !important;
+    color: white !important;
+    
+    
+}
+
+#postcancel:hover {
+    cursor: pointer;
+    
+}

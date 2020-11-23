@@ -1,0 +1,393 @@
+#b1 {
+    
+    background-color: #f0f2f3;
+    margin:0px; 
+    padding: 0px;
+    
+}
+
+#maintop {
+    
+    text-align: center;
+    position: absolute; 
+    top: 0px; 
+    margin: 0px;
+    height: 76px; 
+    width:100%; 
+    background-color: white;
+    border-bottom: 1px solid blue;
+    
+}
+
+#form {
+    text-align: center;
+    width: 500px; 
+    height:540px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    position: absolute; 
+    top:56%; 
+    left:50%; 
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.formtxt {
+    
+    color: black;
+    font-family: monospace;
+    
+    
+    
+    
+    
+    
+    
+}
+
+#submitcss {
+    transition: 0.4s;
+    
+}
+
+#submitcss:hover {
+    
+    color: white !important;
+    background-color: green !important;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+
+
+
+#btnanim:hover {
+    
+    color: white !important;
+    background-color: blue !important;
+    
+     
+    
+    
+    
+}
+
+
+#btnanim {
+    
+    
+    border: 1px solid blue;
+    border-radius: 4px;
+    width: 500px;
+    height: 100px;  
+    background: white;
+    margin-top: 15%;
+    color: blue;
+    transition: 0.4s;
+    
+                          
+    
+}
+
+#btnanim:hover {
+    
+    
+    cursor: pointer;
+    
+}
+
+#toprightname {
+    
+    transition: 0.4s;
+    
+    
+}
+
+#toprightname:hover {
+    cursor: pointer;
+    background: blue !important;
+    color: white !important;
+    
+    
+    
+}
+
+ #form2 {
+    text-align: center;
+    width: 500px; 
+    height:440px;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 5px #ccc;
+    position: absolute; 
+    top:56%; 
+    left:50%; 
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+
+
+
+
+.errordialog {
+    text-align: left;
+    width:380px;
+    height:60px;
+    background-color: #de2222;
+    color: white;
+    font-size: 16.5px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+}
+
+#signoutbtn:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    background: blue !important;
+    color: white !important;
+    
+}
+
+#cpostbtn:hover {
+    
+    
+    transition: 0.4s;
+    cursor: pointer;
+    background: blue !important;
+    color: white !important;
+    
+    
+}
+
+.closex {
+    
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    line-height: 60px;
+    cursor: pointer;
+    
+}
+
+#errortxt {
+    
+    line-height: 60px;
+    position: absolute;
+    left: 4px;
+
+    
+    
+}
+
+
+    
+#composebtn {
+    
+    
+position: absolute;
+    bottom: 2%;
+    right: 31%;
+    transition:0.5s;
+    transform-origin: 50% 50%; 
+    -webit-transform-origin: 50% 50%;    
+}
+
+#homebtn:hover, #mainlogin:hover, #maincreate:hover {
+    
+    transition: 0.4s;
+    background-color: blue !important;
+    color: white !important;
+    cursor: pointer;
+    
+}
+
+#signoutpgbtnh:hover {
+    
+    transition: 0.4s;
+    color: white !important;
+    background: blue !important;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+
+#youidbackground {
+    position: absolute;
+    right: 20px;
+    background: lightblue;
+    height: 40px;
+    display: inline-block;
+    min-width: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+#younameid {
+    
+    font-size: 12px;
+    margin-top: 1px;
+    color: white;
+    
+    
+}
+
+#youid {
+    
+    margin-top: -6px;
+    color: black;
+    
+    
+}
+
+#messagepgbtn:hover {
+    
+    transition: 0.4s;
+    color: white !important;
+    background: blue !important;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+
+#signoutpgbtns:hover {
+    
+    transition: 0.4s;
+    color: white !important;
+    background: green !important;
+    cursor: pointer;
+    
+    
+    
+}
+
+#otheridbackground {
+    background: orange;
+    position: absolute;
+    left: 20px;
+    height: 40px;
+    display: inline-block;
+    min-width: 15px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+#othernameid {
+    font-size: 12px;
+    margin-top: 1px;
+    color: white;
+}
+
+#otherid {
+    margin-top: -6px;
+    color: black;
+}
+
+#contacttext {
+    
+    
+    
+    
+    
+    
+}
+
+
+#contactbackground {
+    
+    display: inline-block;
+    border-bottom: 1px solid blue;
+    font-family: arial;
+    text-align: center;
+    height: 50px;
+    color: blue;
+    margin-top: 0px;
+    position: static;
+    margin-top: 0px;
+    width: 550px;
+    height: 50px;
+    margin-top: 0px;
+    
+    
+    
+}
+
+#contactbackground:hover {
+    cursor: pointer;
+    transition: 0.9s;
+    background: blue;
+    color: white;
+    
+    
+}
+
+#mainpostbackground {
+    
+    width: 650px;
+    display: inline-block;
+    z-index: 1;
+    height: 55px;
+    border-bottom: 1px solid green;
+    color: green;
+    text-align: center;
+    font-family: arial;
+    
+    
+}
+
+#mainpostbackground:hover {
+    transition: 0.9s;
+    color: white;
+    background-color: green !important;
+    cursor: pointer;
+    
+}
+
+#mainposttitle {
+    position: relative;
+    top: 5px;
+}
+
+#userpostbackground {
+    border-bottom: 1px solid green;
+    font-family: arial;
+    color: green;
+    text-align: center;
+    display: inline-block;
+    width: 650px;
+}
+
+#userpostbackground:hover {
+    transition: 0.9s;
+    cursor: pointer;
+    background: green;
+    color: white;
+    
+    
+    
+}
